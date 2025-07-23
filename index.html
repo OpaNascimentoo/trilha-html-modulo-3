@@ -1,44 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>MiniWiki</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #2a4b8d;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #e9ecef;
+            padding: 1rem;
+        }
+        nav a {
+            margin-right: 1rem;
+            text-decoration: none;
+            color: #2a4b8d;
+            font-weight: bold;
+        }
+        main {
+            padding: 2rem;
+        }
+        footer {
+            background: #dee2e6;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>MiniWiki</h1>
+        <p>Uma enciclopédia livre e simples</p>
+    </header>
+    <nav>
+        <a href="#">Página Principal</a>
+        <a href="#">História</a>
+        <a href="#">Ciência</a>
+        <a href="#">Arte</a>
+        <a href="#">Tecnologia</a>
+    </nav>
+    <main>
+        <h2>Bem-vindo à MiniWiki!</h2>
+        <p>Este é um site básico inspirado na Wikipédia, onde você pode adicionar conteúdo informativo sobre diversos temas.</p>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
-
-    <div class="bar"></div>
-
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
-
-        <div class="main">
-            
-        </div>
-
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="footer">
-
-    </div>
+        <h3>Exemplo de Artigo</h3>
+        <p><strong>Sol</strong> — A estrela no centro do Sistema Solar. Ele fornece luz e calor essenciais para a vida na Terra.</p>
+    </main>
+    <footer>
+        <p>MiniWiki &copy; 2025 - Conteúdo livre para todos</p>
+    </footer>
 </body>
 </html>
